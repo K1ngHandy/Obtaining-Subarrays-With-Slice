@@ -40,11 +40,9 @@
       /* 
     PROBLEM 5 (DEBUGGING): 
     The following code is throwing this error: "TypeError: numbers.slice is not a function". Fix the error so that the console prints “12345”.
-    let numbers = 1234567;
-    console.log(numbers.slice(-1, 5));
     */
-      let numbers = 1234567;
-      console.log(numbers.toString().slice(-1, 5)); // To solve the error, convert the value to a string before calling the method or make sure to only call the slice method on strings or arrays.
+      let numbers = "1234567"; // To solve the error, convert the value to a string before calling the method or make sure to only call the slice method on strings or arrays.
+      console.log(numbers.slice(-1, 5)); 
     </script>
   </body>
 </html>
