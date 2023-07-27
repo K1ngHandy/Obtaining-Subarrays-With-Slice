@@ -11,25 +11,29 @@
     PROBLEM 1: 
     Copy the above array named originalArray into another array named newArray, using slice and log both arrays to the console.
     */
-    //ENTER YOUR CODE HERE
+    const newArr = originalArray.slice();
+    console.log('new', newArr);
      
     /* 
     PROBLEM 2: 
     Using slice, log to the console an array that only includes the last two elements of the above array named originalArray so the output should be [3, 4]
     */
-    //ENTER YOUR CODE HERE
+    const endSlice = originalArray.slice(2);
+    console.log('end', endSlice);
     
      /* 
     PROBLEM 3:
     Using slice, log to the console an array that only includes the two elements in the middle of the above array named originalArray so the output should be [2, 3]
     */
-    //ENTER YOUR CODE HERE
+    const midSlice = originalArray.slice(1, 3);
+    console.log('mid', midSlice);
 
     /* 
     PROBLEM 4: 
     Using slice, log to the console an array that only includes the last element in the above array named originalArray so the output should be [4]
     */
-    //ENTER YOUR CODE HERE
+    const lastSlice = originalArray.slice(-1);
+    console.log('last', lastSlice);
 
     /* 
     PROBLEM 5 (DEBUGGING): 
